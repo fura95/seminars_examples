@@ -5,6 +5,7 @@
 
 int main()
 {
+    std::cout << "Starting:\n";
     using namespace boost::lambda;
     typedef std::istream_iterator<int> in;
 
