@@ -1,0 +1,390 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps-Release-9809b3fc864cc8f91ec2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "deps"
+				},
+				{
+					"build" : "_deps/eigen_lib-build",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						8,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen_lib-build-Release-67f067578f2f1106f266.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "build/_deps/eigen_lib-src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "_deps/eigen_lib-build/blas",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen_lib-build.blas-Release-d47661d01153b759d4d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "build/_deps/eigen_lib-src/blas",
+					"targetIndexes" : 
+					[
+						1,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "_deps/eigen_lib-build/lapack",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen_lib-build.lapack-Release-e065afa5b3c9a659ceba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "build/_deps/eigen_lib-src/lapack",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "_deps/eigen_lib-build/unsupported",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen_lib-build.unsupported-Release-cd6811d6cbc10eab5c06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/eigen_lib-src/unsupported"
+				},
+				{
+					"build" : "_deps/eigen_lib-build/unsupported/Eigen",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen_lib-build.unsupported.Eigen-Release-823ad47b2f6271f6e598.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "build/_deps/eigen_lib-src/unsupported/Eigen"
+				},
+				{
+					"build" : "_deps/eigen_lib-build/unsupported/Eigen/CXX11",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen_lib-build.unsupported.Eigen.CXX11-Release-08d8d9e0aedc3e1eb3a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "build/_deps/eigen_lib-src/unsupported/Eigen/CXX11"
+				},
+				{
+					"build" : "_deps/eigen_lib-build/demos",
+					"jsonFile" : "directory-_deps.eigen_lib-build.demos-Release-a487ff2999f9b787abb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "build/_deps/eigen_lib-src/demos",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "_deps/eigen_lib-build/scripts",
+					"jsonFile" : "directory-_deps.eigen_lib-build.scripts-Release-8e1b4904e7239651aeaf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/eigen_lib-src/scripts"
+				},
+				{
+					"build" : "_deps/eigen_lib-build/bench/spbench",
+					"jsonFile" : "directory-_deps.eigen_lib-build.bench.spbench-Release-c743fb30b19034d3b880.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "build/_deps/eigen_lib-src/bench/spbench",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						11
+					],
+					"name" : "eigen_cmake",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						9,
+						10
+					],
+					"name" : "Eigen3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "EigenBlas",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "EigenLapack",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "EigenDemos",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 11,
+					"id" : "Eigen_example::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Eigen_example-Release-2dc35188f3b8367301f7.json",
+					"name" : "Eigen_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "blas::@00affa8287596fb41f09",
+					"jsonFile" : "target-blas-Release-869af36132cc9bd144da.json",
+					"name" : "blas",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "demos::@8ec215761030241dc857",
+					"jsonFile" : "target-demos-Release-f0ff1d95ecfd1ebc91a7.json",
+					"name" : "demos",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "eigen_blas::@00affa8287596fb41f09",
+					"jsonFile" : "target-eigen_blas-Release-7cc0476b6bf318899365.json",
+					"name" : "eigen_blas",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "eigen_blas_static::@00affa8287596fb41f09",
+					"jsonFile" : "target-eigen_blas_static-Release-76c7ef3a9e85a5320c92.json",
+					"name" : "eigen_blas_static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "eigen_lapack::@bddaaa327e34025aabd4",
+					"jsonFile" : "target-eigen_lapack-Release-0a92ed8f8fcea865aa43.json",
+					"name" : "eigen_lapack",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "eigen_lapack_static::@bddaaa327e34025aabd4",
+					"jsonFile" : "target-eigen_lapack_static-Release-3f08c9325820477b069e.json",
+					"name" : "eigen_lapack_static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lapack::@bddaaa327e34025aabd4",
+					"jsonFile" : "target-lapack-Release-ec3c46c834ce772baa92.json",
+					"name" : "lapack",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "spbenchsolver::@a9bf644985db40586585",
+					"jsonFile" : "target-spbenchsolver-Release-832e8548a188eb802d64.json",
+					"name" : "spbenchsolver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "spsolver::@a9bf644985db40586585",
+					"jsonFile" : "target-spsolver-Release-0572530f5c33bfe4ce7f.json",
+					"name" : "spsolver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "test_sparseLU::@a9bf644985db40586585",
+					"jsonFile" : "target-test_sparseLU-Release-8a8f1fa53bd9621ba674.json",
+					"name" : "test_sparseLU",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@65a75e0920d113138674",
+					"jsonFile" : "target-uninstall-Release-f9c76a333204c4650622.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vladislav/seminars/c++/seminars_examples/sem1-2/Cmake_eigen/build",
+		"source" : "/home/vladislav/seminars/c++/seminars_examples/sem1-2/Cmake_eigen"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
