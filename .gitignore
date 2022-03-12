@@ -2,3 +2,5 @@ x64/
 x86/
 out/
 .vs/
+.vscode/
+a.out
