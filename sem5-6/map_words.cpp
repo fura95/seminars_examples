@@ -11,6 +11,7 @@ int main()
     mapOfWords.insert(std::make_pair("earth", 1));
     mapOfWords.insert(std::make_pair("moon", 2));
     mapOfWords["sun"] = 3;
+    mapOfWords.insert(std::make_pair("sun", 4));
     // Will replace the value of already added key i.e. earth
     mapOfWords["earth"] = 4;
     //insert new key-value
@@ -24,6 +25,7 @@ int main()
         it++;
     }
     // Check if insertion is successful or not
+    mapOfWords["earth"] = 1;
     if(mapOfWords.insert(std::make_pair("earth", 1)).second == false)
     {
         std::cout<<"Element with key 'earth' not inserted because already existed"<<std::endl;

@@ -18,7 +18,7 @@ std::size_t hash(const char * s)
 int main(int argc, char ** argv)
 {
 	std::cout << hash("ivanov") << std::endl;
-	std::cout << hash("ivanoV") << std::endl;
+	std::cout << hash("Ivanov") << std::endl;
 
 	return 0;
 }

@@ -60,6 +60,7 @@ struct Customer_Hash
 {
 	std::size_t operator() (const Customer & customer) const noexcept
 	{
+		std::cout << "Calc hash\n";
 		auto hash = hash_value(customer.m_name, customer.m_mark);
 		std::cout << "Hash for (" << customer.m_name << " " << customer.m_mark << ") = " << hash << std::endl;
 		return hash;
@@ -70,13 +71,14 @@ struct Customer_Equal
 {
 	bool operator() (const Customer & lhs, const Customer & rhs) const noexcept
 	{
+		std::cout << "Compare\n";
 		return (lhs.m_name == rhs.m_name);
 	}
 };
 
 int main(int argc, char ** argv)
 {
-	std::unordered_set < Customer, Customer_Hash, Customer_Equal > customers;
+	std::unordered_set <Customer, Customer_Hash, Customer_Equal> customers;
 
 	std::cout << "First insert \n";
 	customers.insert(Customer("Ivan", 42));
@@ -86,6 +88,8 @@ int main(int argc, char ** argv)
 	customers.insert(Customer("Bob", 36));
 	std::cout << "Fourth insert \n";
 	customers.insert(Customer("Alice", 30));
+	std::cout << "Fifth insert \n";
+	customers.insert(Customer("Ivan", 32));
 
 	for (const auto & customer : customers)
 	{

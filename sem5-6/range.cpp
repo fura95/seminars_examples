@@ -6,8 +6,8 @@ int main(int argc, char ** argv)
 	std::set < int > set;
 
 	set.insert(1);
-	set.insert(2);
 	set.insert(4);
+	set.insert(2);
 	set.insert(5);
 	set.insert(6);
 
@@ -32,7 +32,7 @@ int main(int argc, char ** argv)
 
 	set.merge(set_2);
 	std::cout << "Current size after merge:" << set.size() << std::endl;
-	for (auto& i : set)
+	for (auto& i : set) //for i in set
 		std::cout << i << " ";
 	std::cout << "\n";
 
