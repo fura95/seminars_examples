@@ -4,7 +4,7 @@
 
 int main(int argc, char ** argv)
 {
-	system("chcp 1251");
+	//system("chcp 1251");
 
 	auto path = std::filesystem::current_path() / "directory/file.txt";
 

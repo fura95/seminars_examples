@@ -56,15 +56,11 @@ void view_directory(const std::filesystem::path & path)
 
 int main(int argc, char ** argv)
 {
-	system("chcp 1251");
-
 	std::cout << compute_file_size("./Source.cpp") << std::endl;
 
 	std::cout << compute_directory_size(std::filesystem::current_path()) << std::endl;
 
 	view_directory(std::filesystem::current_path());
-
-	system("pause");
 
 	return EXIT_SUCCESS;
 }

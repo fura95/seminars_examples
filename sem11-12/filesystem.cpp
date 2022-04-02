@@ -5,9 +5,9 @@
 
 int main(int argc, char ** argv)
 {
-	system("chcp 1251");
+	//system("chcp 1251");
 
-	// см. также exists
+	// пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅ exists
 
 	auto path = std::filesystem::current_path();
 
@@ -25,10 +25,6 @@ int main(int argc, char ** argv)
 	std::filesystem::rename("AA", "new_name");
 	//std::filesystem::remove_all("AA");
 	//std::filesystem::remove_all("A");
-
-	// см. также copy_symlink, copy_file
-
-	system("pause");
 
 	return EXIT_SUCCESS;
 }

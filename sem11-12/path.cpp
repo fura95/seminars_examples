@@ -4,7 +4,7 @@
 
 int main(int argc, char ** argv)
 {
-	system("chcp 1251");
+	//system("chcp 1251");
 
 	std::filesystem::path file = "./Source.cpp";
 
