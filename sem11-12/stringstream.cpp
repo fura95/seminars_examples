@@ -21,7 +21,5 @@ int main(int argc, char ** argv)
 
 	std::cout << sout.str() << std::endl;
 
-	system("pause");
-
 	return EXIT_SUCCESS;
 }
